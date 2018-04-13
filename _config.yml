@@ -5,8 +5,8 @@
 # Where things are
 source:       .
 destination:  ./_site
-plugins:      ./_plugins
-layouts:      ./_layouts
+# plugins:      ./_plugins
+layouts_dir:      ./_layouts
 paginate:     8
 
 # Handling Reading
@@ -115,14 +115,14 @@ disqus:
 
 #################################### global configure #######################################
 
-username: minixalpha
+username: alisen
 baseurl: /StrayBirds
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 飞鸟集
+title: First
 description: 人生到处知何似，应似飞鸿踏雪泥
-theme: kunka
+theme: hack
 disqusname: minixalpha
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
