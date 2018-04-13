@@ -5,8 +5,8 @@
 # Where things are
 source:       .
 destination:  ./_site
-plugins_dir:      ./_plugins
-layouts_dir:      ./_layouts
+plugins:      ./_plugins
+layouts:      ./_layouts
 paginate:     8
 
 # Handling Reading
@@ -115,12 +115,12 @@ disqus:
 
 #################################### global configure #######################################
 
-username: alisen
-baseurl: /StrayBirds
+username: igithu
+baseurl: /alisen
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: First
+title: 飞鸟集
 description: 人生到处知何似，应似飞鸿踏雪泥
 theme: hack
 disqusname: minixalpha
